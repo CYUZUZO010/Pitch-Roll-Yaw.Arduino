@@ -6,6 +6,8 @@
 #define REG_ACCEL_XOUT_H 0x3B
 #define REG_GYRO_XOUT_H  0x43
 
+//using the arduino codes to control the pitch , roll and yaw.
+
 // Sensitivities (default full-scale): ±2g, ±250°/s
 const float ACCEL_SENS = 16384.0; // LSB/g
 const float GYRO_SENS  = 131.0;   // LSB/(°/s)
